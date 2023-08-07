@@ -10,5 +10,5 @@ output "id" {
 
 output "object" {
   description = "The user assigned identity object."
-  value       = azurerm_user_assigned_identity
+  value       = azurerm_user_assigned_identity.identity
 }

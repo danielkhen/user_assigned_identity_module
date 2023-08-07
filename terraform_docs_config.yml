@@ -6,7 +6,6 @@ sections:
     - inputs
     - outputs
     - resources
-    - modules
 
 content: |-
   
@@ -17,8 +16,6 @@ content: |-
   {{ .Outputs }}
   
   {{ .Resources }}
-  
-  {{ .Modules }}
   
   ## Example Code
   
