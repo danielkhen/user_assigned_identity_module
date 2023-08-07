@@ -40,5 +40,5 @@ module "user_assigned_identity" {
   name                = local.name
   location            = local.location
   resource_group_name = azurerm_resource_group.test_rg.name
-  role_assignments = local.role_assignemnts
+  role_assignments    = local.role_assignemnts
 }

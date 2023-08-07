@@ -9,7 +9,7 @@ resource "azurerm_user_assigned_identity" "identity" {
 }
 
 locals {
-  roles_map = {for role in var.role_assignments : role.name => role}
+  roles_map = { for role in var.role_assignments : role.name => role }
 }
 
 resource "azurerm_role_assignment" "roles" {

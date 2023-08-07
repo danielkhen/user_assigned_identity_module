@@ -3,9 +3,9 @@ output "name" {
   value       = var.name
 }
 
-output "identity" {
-  description = "The identity of user assigned identity."
-  value       = azurerm_user_assigned_identity.identity
+output "id" {
+  description = "The id of user assigned identity."
+  value       = azurerm_user_assigned_identity.identity.id
 }
 
 output "object" {
